@@ -187,7 +187,7 @@ type ListSectionObject = {
 	title?: string;
 };
 
-type SectionObject = MultiProductSectionObject | ListSectionObject;
+type SectionObject = MultiProductSectionObject | ListSectionObject[];
 
 type ButtonObject = {
 	title: string;
